@@ -16,7 +16,7 @@ test('renders BookingForm component', () => {
     />
   );
 
-  // Verificar que el label "Date" es visible, como indicativo de que el componente se renderizó
+  // Verify that the label "Date" is visible, as an indicator that the component has rendered.
   const dateLabel = screen.getByText(/Date/i);
   expect(dateLabel).toBeInTheDocument();
 });
